@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "React Tutorial for Beginners",
+      "description": "Learn React from scratch with this comprehensive tutorial.",
+      "thumbnail": "https://example.com/thumbnail1.jpg",
+      "channel": "React Channel"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Essentials",
+      "description": "Understand the core concepts of JavaScript.",
+      "thumbnail": "https://example.com/thumbnail2.jpg",
+      "channel": "JS Mastery"
+    }
+  ]
+  
