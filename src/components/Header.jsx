@@ -1,22 +1,24 @@
-import React, { useState } from "react";
 
-function Header() {
-  const [searchQuery, setSearchQuery] = useState("");
+import React from "react";
+import { Link } from "react-router-dom";
 
+const Header = () => {
   return (
-    <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
-      <h1 className="text-2xl">YouTube Clone</h1>
-      <div className="flex items-center space-x-4">
-        <input
-          type="text"
-          className="p-2 rounded"
-          placeholder="Search"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
+    <header className="bg-gray-800 text-white p-4">
+      <div className="flex justify-between items-center">
+        <Link to="/" className="text-2xl font-bold">
+          YouTube Clone
+        </Link>
+        <div className="space-x-4">
+          <Link to="/" className="text-white hover:text-gray-400">Home</Link>
+          <Link to="/trending" className="text-white hover:text-gray-400">Trending</Link>
+          <Link to="/subscriptions" className="text-white hover:text-gray-400">Subscriptions</Link>
+          <Link to="/library" className="text-white hover:text-gray-400">Library</Link>
+          <Link to="/history" className="text-white hover:text-gray-400">History</Link>
+        </div>
       </div>
     </header>
   );
-}
+};
 
 export default Header;

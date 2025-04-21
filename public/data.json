@@ -1,17 +1,29 @@
 [
-    {
-      "id": 1,
-      "title": "React Tutorial for Beginners",
-      "description": "Learn React from scratch with this comprehensive tutorial.",
-      "thumbnail": "https://example.com/thumbnail1.jpg",
-      "channel": "React Channel"
-    },
-    {
-      "id": 2,
-      "title": "JavaScript Essentials",
-      "description": "Understand the core concepts of JavaScript.",
-      "thumbnail": "https://example.com/thumbnail2.jpg",
-      "channel": "JS Mastery"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "React JS Tutorial for Beginners",
+    "channel": "Programming Hero",
+    "description": "Learn the basics of React.js from scratch.",
+    "videoUrl": "https://www.youtube.com/embed/dGcsHMXbSOA",
+    "thumbnail": "https://img.youtube.com/vi/dGcsHMXbSOA/hqdefault.jpg",
+    "category": "React"
+  },
+  {
+    "id": 2,
+    "title": "Tailwind CSS Full Course",
+    "channel": "FreeCodeCamp",
+    "description": "Master Tailwind CSS in this full course.",
+    "videoUrl": "https://www.youtube.com/embed/dFgzHOX84xQ",
+    "thumbnail": "https://img.youtube.com/vi/dFgzHOX84xQ/hqdefault.jpg",
+    "category": "CSS"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Crash Course",
+    "channel": "Traversy Media",
+    "description": "A crash course for JavaScript beginners.",
+    "videoUrl": "https://www.youtube.com/embed/hdI2bqOjy3c",
+    "thumbnail": "https://img.youtube.com/vi/hdI2bqOjy3c/hqdefault.jpg",
+    "category": "JavaScript"
+  }
+]
